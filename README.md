@@ -1,6 +1,7 @@
 # Mood Detector 
+[Video Link](https://youtu.be/8kFPut8kw-o)
 
-Mood Detector is a mobile application, which can help the user to track their mood daily. Tracking the mood is necessessary for people dealing with mood disorders like anxiety, depresssion, etc.
+Mood Detector is a mobile application, which can help the user to track their mood daily. Tracking the mood is necessary for people dealing with mood disorders like anxiety, depresssion, etc.
 
 ## Features of the Application 
 1. Graphical representation of the mood tracked during the day 
