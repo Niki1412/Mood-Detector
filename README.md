@@ -34,7 +34,7 @@ The user needs to enter  their email and create a password.
 
 The user receives an email on their resgistered email for verification. After verification, the user would be logged in automatically and would be redirected to the Home Page.
 
-(https://github.com/Niki1412/Mood-Detector/blob/main/Images/signup.png)
+![signup](https://user-images.githubusercontent.com/92136763/170855776-6dcf4310-6f41-4d2f-9da2-537cddd8701f.png)
 
 Login 
 The user needs to provide their email and password for logging in. 
