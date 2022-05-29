@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857952105611",
+    "project_id": "ms-project-2022",
+    "storage_bucket": "ms-project-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857952105611:android:d1ae3073b8a3368f7d908e",
+        "android_client_info": {
+          "package_name": "com.example.ms_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857952105611-q7sgouiii8q795t6it4ra631lk413j11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiI3tmQDvWXe3pQ7yYy508IMnMWCsA34c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857952105611-q7sgouiii8q795t6it4ra631lk413j11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

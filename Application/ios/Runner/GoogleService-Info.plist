@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>857952105611-f50t1pnccpnesp4uqmti8dau4ka9pgas.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.857952105611-f50t1pnccpnesp4uqmti8dau4ka9pgas</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-h10Sq9qaxwpvquQkgU_PQqe02vVDyCc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>857952105611</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.msProject</string>
+	<key>PROJECT_ID</key>
+	<string>ms-project-2022</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ms-project-2022.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:857952105611:ios:57f5041a59cb13df7d908e</string>
+	<key>DATABASE_URL</key>
+	<string>https://ms-project-2022-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

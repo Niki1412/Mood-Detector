@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/res/merged/release/menu/example_menu2.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3f6d9ef3b65bfee01861f2e5d3bab0bd/core-1.7.0/res/menu/example_menu2.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/res/merged/release/menu/ucrop_menu_activity.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/res/menu/ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/res/merged/release/menu/example_menu.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3f6d9ef3b65bfee01861f2e5d3bab0bd/core-1.7.0/res/menu/example_menu.xml"
+    }
+]

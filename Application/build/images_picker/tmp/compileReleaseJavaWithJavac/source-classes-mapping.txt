@@ -1,0 +1,15 @@
+com/chavesgu/images_picker/GlideEngine.java
+ com.chavesgu.images_picker.GlideEngine
+ com.chavesgu.images_picker.GlideEngine$1
+ com.chavesgu.images_picker.GlideEngine$2
+com/chavesgu/images_picker/FileSaver.java
+ com.chavesgu.images_picker.FileSaver
+com/chavesgu/images_picker/BuildConfig.java
+ com.chavesgu.images_picker.BuildConfig
+com/chavesgu/images_picker/Utils.java
+ com.chavesgu.images_picker.Utils
+com/chavesgu/images_picker/ImagesPickerPlugin.java
+ com.chavesgu.images_picker.ImagesPickerPlugin
+ com.chavesgu.images_picker.ImagesPickerPlugin$1
+ com.chavesgu.images_picker.ImagesPickerPlugin$1$1
+ com.chavesgu.images_picker.ImagesPickerPlugin$1$1$1

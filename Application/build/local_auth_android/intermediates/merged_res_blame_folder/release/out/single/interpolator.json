@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/fast_out_slow_in.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "/Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/res/merged/release/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "/Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/c4f28aafbf52f2239ddc1bd72ef82e45/appcompat-1.2.0/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    }
+]

@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chavesgu.images_picker" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml
+6
+7    <queries>
+7-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:4:3-12:13
+8        <package android:name="${applicationId}" />
+8-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:5:5-47
+8-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:5:14-45
+9
+10        <intent>
+10-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:6:5-8:14
+11            <action android:name="android.media.action.IMAGE_CAPTURE" />
+11-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:7:7-66
+11-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:7:15-64
+12        </intent>
+13        <intent>
+13-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:9:5-11:14
+14            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+14-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:10:7-73
+14-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:10:15-71
+15        </intent>
+16    </queries>
+17
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:13:3-78
+18-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:13:20-75
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:14:3-79
+19-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:14:20-76
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:15:3-63
+20-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:15:20-60
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:16:3-69
+21-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:16:20-66
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:17:3-65
+22-->/Users/nikitagarg/Documents/Development Softwares/flutter/.pub-cache/hosted/pub.dartlang.org/images_picker-1.2.11/android/src/main/AndroidManifest.xml:17:20-62
+23
+24</manifest>

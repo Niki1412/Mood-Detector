@@ -1,0 +1,454 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ms_project"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:camera] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:9:5-65
+11-->[:camera] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:9:22-62
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->[:camera] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:10:5-71
+12-->[:camera] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/camera/intermediates/library_manifest/release/AndroidManifest.xml:10:22-68
+13    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+13-->[:local_auth_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/library_manifest/release/AndroidManifest.xml:9:5-74
+13-->[:local_auth_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/local_auth_android/intermediates/library_manifest/release/AndroidManifest.xml:9:22-71
+14
+15    <queries>
+15-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-16:15
+16        <package android:name="com.example.ms_project" />
+16-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-52
+16-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:18-49
+17
+18        <intent>
+18-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:9-12:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-73
+19-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:21-70
+20        </intent>
+21        <intent>
+21-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:9-15:18
+22            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+22-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-80
+22-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:21-77
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:5-80
+26-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:19:5-81
+27-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:19:22-78
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:22:5-67
+28-->[:images_picker] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/images_picker/intermediates/library_manifest/release/AndroidManifest.xml:22:22-64
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:24:5-79
+29-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:24:22-76
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+31-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+31-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+32    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+32-->[androidx.biometric:biometric:1.1.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/4cd66af54d1f15a777a0a2f275ccac1f/biometric-1.1.0/AndroidManifest.xml:24:5-72
+32-->[androidx.biometric:biometric:1.1.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/4cd66af54d1f15a777a0a2f275ccac1f/biometric-1.1.0/AndroidManifest.xml:24:22-69
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+33-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+34
+35    <application
+36        android:name="android.app.Application"
+36-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:5:9-42
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3f6d9ef3b65bfee01861f2e5d3bab0bd/core-1.7.0/AndroidManifest.xml:24:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:6:9-43
+39        android:label="ms_project" >
+39-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:4:9-35
+40        <activity
+40-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:7:9-27:20
+41            android:name="com.example.ms_project.MainActivity"
+41-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:8:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:12:13-163
+43            android:exported="true"
+43-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:9:13-36
+44            android:hardwareAccelerated="true"
+44-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:13:13-47
+45            android:launchMode="singleTop"
+45-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:10:13-43
+46            android:theme="@style/LaunchTheme"
+46-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:11:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:14:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:19:13-22:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:20:15-70
+57                android:resource="@style/NormalTheme" />
+57-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:21:15-52
+58
+59            <intent-filter>
+59-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:23:13-26:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:24:17-68
+60-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:24:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:25:17-76
+62-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:25:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:30:9-32:33
+70            android:name="flutterEmbedding"
+70-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:31:13-44
+71            android:value="2" />
+71-->/Users/nikitagarg/Desktop/Ms engage project/ms_project/android/app/src/main/AndroidManifest.xml:32:13-30
+72
+73        <service
+73-->[:firebase_auth] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[:firebase_auth] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:66:13-37
+77            <meta-data
+77-->[:firebase_auth] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+78-->[:firebase_auth] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:cloud_firestore] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+81-->[:cloud_firestore] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:cloud_firestore] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+83            <meta-data
+83-->[:firebase_core] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+84-->[:firebase_core] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_core] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:67:13-69:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:68:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:69:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-firestore:24.1.2] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f5bbed170b360fd19b200a85558d3766/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+90                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+90-->[com.google.firebase:firebase-firestore:24.1.2] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f5bbed170b360fd19b200a85558d3766/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-firestore:24.1.2] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f5bbed170b360fd19b200a85558d3766/jetified-firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+93-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1cd6b35bba78aa82ebfb4f3fdea2085f/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:17.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:17.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:17.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/5c0bcaf225cb7771e65a14163b1c7474/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+98        </service>
+99
+100        <provider
+100-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+101            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+101-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+102            android:authorities="com.example.ms_project.flutter.image_provider"
+102-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+103            android:exported="false"
+103-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+104            android:grantUriPermissions="true" >
+104-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+105            <meta-data
+105-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+107                android:resource="@xml/flutter_image_picker_file_paths" />
+107-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+108        </provider>
+109
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+111            android:name="androidx.window.extensions"
+111-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+114            android:name="androidx.window.sidecar"
+114-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+116
+117        <activity
+117-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:27:9-44:20
+118            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+118-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:28:13-80
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:29:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:30:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:31:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:32:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:33:13-43:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+124-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+126-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+127-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+132                    android:scheme="genericidp" />
+132-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:45:9-62:20
+136            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+136-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:46:13-79
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:47:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:48:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:49:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:50:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:51:13-61:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:17-69
+142-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:34:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:17-76
+144-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:36:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:17-78
+145-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:37:27-75
+146
+147                <data
+147-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:39:17-42:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:40:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:41:21-37
+150                    android:scheme="recaptcha" />
+150-->[com.google.firebase:firebase-auth:21.0.4] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/f3075ca5717f5a7e0f1da18bb60d0196/jetified-firebase-auth-21.0.4/AndroidManifest.xml:42:21-48
+151            </intent-filter>
+152        </activity>
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+156            android:authorities="com.example.ms_project.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+158            android:exported="false"
+158-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+159            android:initOrder="100" />
+159-->[com.google.firebase:firebase-common:20.1.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/0f67b2d2737c37bf1274c8f8df4996b1/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+160        <provider
+160-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:13:9-22:20
+161            android:name="com.luck.picture.lib.PictureFileProvider"
+161-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:14:13-68
+162            android:authorities="com.example.ms_project.luckProvider"
+162-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:15:13-64
+163            android:exported="false"
+163-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:16:13-37
+164            android:grantUriPermissions="true" >
+164-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:17:13-47
+165            <meta-data
+165-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+166                android:name="android.support.FILE_PROVIDER_PATHS"
+166-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+167                android:resource="@xml/file_paths" >
+167-->[:image_picker_android] /Users/nikitagarg/Desktop/Ms engage project/ms_project/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+168            </meta-data>
+169        </provider>
+170
+171        <activity
+171-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:24:9-27:20
+172            android:name="com.luck.picture.lib.PictureSelectorActivity"
+172-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:25:13-72
+173            android:configChanges="orientation|keyboardHidden|screenSize" >
+173-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:26:13-74
+174        </activity>
+175        <activity
+175-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:28:9-31:20
+176            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+176-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:29:13-83
+177            android:configChanges="orientation|keyboardHidden|screenSize" >
+177-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:30:13-74
+178        </activity>
+179        <activity
+179-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:32:9-36:20
+180            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+180-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:33:13-83
+181            android:configChanges="orientation|keyboardHidden|screenSize"
+181-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:34:13-74
+182            android:theme="@style/Picture.Theme.Translucent" >
+182-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:35:13-61
+183        </activity>
+184        <activity
+184-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:37:9-40:20
+185            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+185-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:38:13-76
+186            android:configChanges="orientation|keyboardHidden|screenSize" >
+186-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:39:13-74
+187        </activity>
+188        <activity
+188-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:41:9-44:20
+189            android:name="com.luck.picture.lib.PicturePreviewActivity"
+189-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:42:13-71
+190            android:configChanges="orientation|keyboardHidden|screenSize" >
+190-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:43:13-74
+191        </activity>
+192        <activity
+192-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:45:9-48:20
+193            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+193-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:46:13-90
+194            android:configChanges="orientation|keyboardHidden|screenSize" >
+194-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:47:13-74
+195        </activity>
+196        <activity
+196-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:49:9-53:20
+197            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+197-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:50:13-73
+198            android:configChanges="orientation|keyboardHidden|screenSize"
+198-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:51:13-74
+199            android:screenOrientation="sensor" >
+199-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:52:13-47
+200        </activity>
+201        <activity
+201-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:54:9-57:20
+202            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+202-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:55:13-79
+203            android:configChanges="orientation|keyboardHidden|screenSize" >
+203-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:56:13-74
+204        </activity>
+205        <activity
+205-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:58:9-61:20
+206            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+206-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:59:13-73
+207            android:configChanges="orientation|keyboardHidden|screenSize" >
+207-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:60:13-74
+208        </activity>
+209        <activity
+209-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:62:9-65:20
+210            android:name="com.yalantis.ucrop.UCropActivity"
+210-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:63:13-60
+211            android:theme="@style/Base.Theme.NoActionBar" >
+211-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:64:13-58
+212        </activity>
+213        <activity
+213-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:66:9-69:20
+214            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+214-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:67:13-74
+215            android:theme="@style/Base.Theme.NoActionBar" >
+215-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/b2e93e45e2d7baea83ba6bffe62b3e08/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:68:13-58
+216        </activity>
+217
+218        <receiver
+218-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+219            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+219-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+220            android:enabled="true"
+220-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+221            android:exported="false" >
+221-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+222        </receiver>
+223
+224        <service
+224-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+225            android:name="com.google.android.gms.measurement.AppMeasurementService"
+225-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+226            android:enabled="true"
+226-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+227            android:exported="false" />
+227-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+228        <service
+228-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+229            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+229-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+230            android:enabled="true"
+230-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+232            android:permission="android.permission.BIND_JOB_SERVICE" />
+232-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/3b1d1e5571522f703c316a9309413648/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+233
+234        <activity
+234-->[com.google.android.gms:play-services-base:18.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+235            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+235-->[com.google.android.gms:play-services-base:18.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+236            android:exported="false"
+236-->[com.google.android.gms:play-services-base:18.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.android.gms:play-services-base:18.0.1] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+238
+239        <meta-data
+239-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+240            android:name="com.google.android.gms.version"
+240-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+241            android:value="@integer/google_play_services_version" />
+241-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+242        <!--
+243        Service for holding metadata. Cannot be instantiated.
+244        Metadata will be merged from other manifests.
+245        -->
+246        <service
+246-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/9e6f60a6fade57578c483f21e6cae024/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:31:9-35:45
+247            android:name="androidx.camera.core.impl.MetadataHolderService"
+247-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/9e6f60a6fade57578c483f21e6cae024/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:32:13-75
+248            android:enabled="false"
+248-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/9e6f60a6fade57578c483f21e6cae024/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:33:13-36
+249            android:exported="false" />
+249-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/nikitagarg/.gradle/caches/transforms-2/files-2.1/9e6f60a6fade57578c483f21e6cae024/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:34:13-37
+250    </application>
+251
+252</manifest>
